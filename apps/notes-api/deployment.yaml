@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/sohamkaralkar/notes-application:52240f5ab13ffbb8e129afaab41feb7854b3b327
+        image: ghcr.io/neerajarahwani/notes-application:ddc738888bcc157241c40751f38ef7ac1df55bae
         ports:
         - containerPort: 8080
         readinessProbe:
